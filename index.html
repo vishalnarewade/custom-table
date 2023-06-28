@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    
+    <script src="custom-table.js"></script>
+    <script>
+        var table = new customTable(1000, 500, {
+            header: ["Name", "Email", "Phone Number"],
+            data: [
+                ["Leanne Graham", "Sincere@april.biz", "1-770-736-8031"],
+                ["Ervin Howell", "Shanna@melissa.tv", "010-692-6593"],
+                ["Clementine Bauch", "Nathan@yesenia.net", "1-463-123-4447"],
+                ["Patricia Lebsack", "Julianne.OConner@kory.org", "493-170-9623 x156"],
+                ["Chelsey Dietrich", "Lucio_Hettinger@annie.ca", "(254)954-1289"]
+            ],
+            search: true,
+            pagination: true
+        });
+    </script>
+</body>
+</html>
